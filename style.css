@@ -109,3 +109,59 @@ h3 {
 }
 
 /* ========About Section======== */
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 75px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+button {
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: transform 0.5s;
+    box-shadow: 0 0 5px #000, 0 0 15px #858585;
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
