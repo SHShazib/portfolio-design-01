@@ -157,7 +157,7 @@ button {
     font-weight: bold;
     border: 2px solid transparent;
     border-radius: 30px;
-    transition: transform 0.5s;
+    transition: all 1s;
     box-shadow: 0 0 5px #000, 0 0 15px #858585;
 }
 button:hover {
@@ -165,3 +165,69 @@ button:hover {
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+
+/* =========Services Section ========= */
+.services {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2 {
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 360px;
+    width: 330px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i {
+    font-size: 50px;
+    color: #f9004d;
+    display: block;
+    margin: 25px 0px;
+    text-align: center;
+}
+.card h5 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card .pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.button {
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all .8s;
+    box-shadow: 0 0 5px #000, 0 0 10px #858585;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+/* ====Skills Section ======== */
