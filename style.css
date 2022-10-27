@@ -9,6 +9,7 @@
 nav {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     padding: 10px;
     padding-left: 8%;
@@ -328,7 +329,13 @@ button:hover {
     justify-content: center;
     background-color: #191919;
 }
-#social .title {
+#social .title h2{
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#social .title h4 {
     color: #fff;
     font-size: 40px;
     font-weight: bold;
@@ -340,6 +347,38 @@ button:hover {
     margin-bottom: 30px;
 }
 #social .icon i {
-    font-size: 60px;
+    font-size: 40px;
     margin: 15px;
+    transition: 0.4s;
+}
+#social .icon .fa-facebook {
+    color: #0984e3;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#social .icon .fa-square-whatsapp {
+    color: #0be881;
+}
+#social .icon .fa-linkedin {
+    color: #0b6ef8;
+}
+#social .icon .fa-twitter {
+    color: #0fbcf9;
+}
+#social .icon .fa-youtube {
+    color: #f53b57;
+}
+#social .icon i:hover {
+    transform: scale(1.5);
+}
+
+/* =====Footer Section======= */
+#footer {
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
